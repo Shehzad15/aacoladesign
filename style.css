@@ -1,43 +1,73 @@
-.logo-img{
-    margin-left: 50px;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.drop-1{
-    background-image: url(img/istockphoto-517188688-612x612.jpg);
+.navbar-brand{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    text-decoration:none;
+    color: white;
+}
+
+.bgchange { background-color: #fff}
+
+ .drop-1{
+    background-image: url(images/embarq-bg-img.jpg);
     background-size: cover;
 }
 
-.why{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 50px
+.nav-item{
+    font-family: 'Inter';
 }
 
-.para{
-    font-family: sans-serif;
-    
+.heading{
+    font-family: 'Cormorant', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.quotes-para{
+    font-family: 'Inter';
+    font-weight: thin;
+    font-size: 22px;
 }
 
 .quotes{
     background-color: rgb(252, 251, 251);
 }
 
-.banner{
-    background-image: url(img/istockphoto-517188688-612x612.jpg);
-    background-size:100%;
+.Embarq{
+    background-image: url(images/embarq-bg-img.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 70vh;
 }
 
-.para-1{
-    font-family: 'Times New Roman', Times, serif;
+.Embarq-para{
+    font-family: 'Inter';
+    font-weight: thin;
+    font-size: 22px;
 }
 
 .btn-1{
     text-align: center;
 }
 
-h1{
-    font-family: 'Times New Roman', Times, serif;
+.ready{
+    background-color: black
+}
+
+.ready-para{
+    font-weight: thin;
+    font-size: 42px;
+    font-weight: 900;
+    font-family: 'Cormorant', serif;
 }
 
 .footer{
@@ -49,17 +79,36 @@ h1{
     color: white;
     background-color: rgb(250, 178, 114);
     margin-left: 5px;
+    font-family: 'Inter';
+    font-size: 15px;  
 }
 
-h5{
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-}
+@media screen and (max-width: 767px) {
+    .header{
+        background-color: #fff;
+    }
+    
+    .logo-img{
+        display: none;
+    }
 
-h4{
-    font-size: 15px;
-}
+    .banner-img{
+        height: 50vh;
+    }
 
-.footer{
-    font-size: medium;
+    .Embarq{
+        height: 90vh;
+    }
+
+    .ready-para{
+        font-size: 38px;
+    }
+
+    .card-title{
+        text-align: center !important;
+    }
+
+    .text-start{
+        text-align: center !important;
+    }
 }
